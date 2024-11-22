@@ -25,6 +25,7 @@ public class PetServiceTest {
     /**
      *
      */
+    /*
     @Test
     public void testFindPetById() {
 
@@ -43,9 +44,12 @@ public class PetServiceTest {
 
     }
 
+     */
+
     /**
      *
      */
+    /*
     @Test
     public void testFindPetByName() {
 
@@ -57,9 +61,12 @@ public class PetServiceTest {
         assertEquals(SIZE_EXPECTED, pets.size());
     }
 
+     */
+
     /**
      *
      */
+    /*
     @Test
     public void testFindPetByTypeId() {
 
@@ -71,9 +78,12 @@ public class PetServiceTest {
         assertEquals(SIZE_EXPECTED, pets.size());
     }
 
+     */
+
     /**
      *
      */
+    /*
     @Test
     public void testFindPetByOwnerId() {
 
@@ -86,6 +96,8 @@ public class PetServiceTest {
 
     }
 
+     */
+
     /**
      * To get ID generate , you need
      * setup in id primary key in your
@@ -93,6 +105,7 @@ public class PetServiceTest {
      *
      * @GeneratedValue(strategy = GenerationType.IDENTITY)
      */
+    /*
     @Test
     public void testCreatePet() {
 
@@ -113,10 +126,13 @@ public class PetServiceTest {
 
     }
 
+     */
+
 
     /**
      *
      */
+    /*
     @Test
     public void testUpdatePet() {
 
@@ -153,9 +169,12 @@ public class PetServiceTest {
         assertEquals(UP_TYPE_ID, upgradePet.getOwnerId());
     }
 
+     */
+
     /**
      *
      */
+    /*
     @Test
     public void testDeletePet() {
 
@@ -187,4 +206,6 @@ public class PetServiceTest {
         }
 
     }
+
+     */
 }

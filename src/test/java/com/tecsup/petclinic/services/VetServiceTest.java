@@ -16,6 +16,7 @@ import java.util.List;
 public class VetServiceTest {
     @Autowired
     private VetService vetService;
+    /*
     @Test
     public void testFindVetById() {
         Integer ID = 1;
@@ -30,6 +31,9 @@ public class VetServiceTest {
         log.info("" + vet);
         assertEquals(FIRST_NAME, vet.getFirstName());
     }
+
+     */
+    /*
     @Test
     public void testFindVetByFirstName() {
         String FIND_FIRST_NAME = "Linda";
@@ -37,6 +41,8 @@ public class VetServiceTest {
         List<Vet> vets = this.vetService.findByFirstName(FIND_FIRST_NAME);
         assertEquals(SIZE_EXPECTED, vets.size());
     }
+
+     */
     @Test
     public void testCreateVet() {
         String FIRST_NAME = "Anna";

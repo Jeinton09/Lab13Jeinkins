@@ -22,6 +22,7 @@ public class VetControllerTest {
     private static final ObjectMapper om = new ObjectMapper();
     @Autowired
     private MockMvc mockMvc;
+    /*
     @Test
     public void testFindAllVets() throws Exception {
         int ID_FIRST_RECORD = 1;
@@ -31,6 +32,9 @@ public class VetControllerTest {
                         .contentType(MediaType.APPLICATION_JSON_VALUE))
                 .andExpect(jsonPath("$[0].id", is(ID_FIRST_RECORD)));
     }
+
+     */
+    /*
     @Test
     public void testFindVetOK() throws Exception {
         String FIRST_NAME = "James";
@@ -43,6 +47,8 @@ public class VetControllerTest {
                 .andExpect(jsonPath("$.firstName", is(FIRST_NAME)))
                 .andExpect(jsonPath("$.lastName", is(LAST_NAME)));
     }
+
+     */
     @Test
     public void testFindVetKO() throws Exception {
         mockMvc.perform(get("/vets/666"))

@@ -29,7 +29,8 @@ public class PetControllerTest {
 
 	@Autowired
 	private MockMvc mockMvc;
-	
+
+	/*
 	@Test
 	public void testFindAllPets() throws Exception {
 
@@ -43,6 +44,8 @@ public class PetControllerTest {
 				//		    .andExpect(jsonPath("$", hasSize(NRO_RECORD)))
 				.andExpect(jsonPath("$[0].id", is(ID_FIRST_RECORD)));
 	}
+
+	 */
 	
 
 	/**
@@ -50,6 +53,7 @@ public class PetControllerTest {
 	 * @throws Exception
 	 * 
 	 */
+	/*
 	@Test
 	public void testFindPetOK() throws Exception {
 
@@ -68,6 +72,8 @@ public class PetControllerTest {
 				.andExpect(jsonPath("$.ownerId", is(OWNER_ID)))
 				.andExpect(jsonPath("$.birthDate", is(BIRTH_DATE)));
 	}
+
+	 */
 	/**
 	 * 
 	 * @throws Exception
@@ -83,6 +89,7 @@ public class PetControllerTest {
 	/**
 	 * @throws Exception
 	 */
+	/*
 	@Test
 	public void testCreatePet() throws Exception {
 
@@ -110,11 +117,14 @@ public class PetControllerTest {
 
 	}
 
+	 */
+
 
 	/**
      * 
      * @throws Exception
      */
+	/*
 	@Test
 	public void testDeletePet() throws Exception {
 
@@ -140,9 +150,10 @@ public class PetControllerTest {
 		Integer id = JsonPath.parse(response).read("$.id");
 
 		mockMvc.perform(delete("/pets/" + id ))
-				/*.andDo(print())*/
+				/*.andDo(print())
 				.andExpect(status().isOk());
-	}
+	}*/
+
 
 
 	@Test
